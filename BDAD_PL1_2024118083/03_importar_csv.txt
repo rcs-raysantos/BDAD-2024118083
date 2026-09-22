@@ -1,0 +1,2 @@
+\copy livros_importados (id, titulo, autor, ano, categoria) FROM 
+'C:\Users\rayss\Documents\GitHub\BDAD-2024118083\BDAD_PL1_2024118083\livros_pl1.csv' WITH (FORMAT csv, HEADER true)

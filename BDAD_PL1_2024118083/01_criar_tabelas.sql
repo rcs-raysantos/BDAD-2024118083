@@ -1,0 +1,22 @@
+--> PARTE C
+CREATE TABLE categorias (id INTEGER PRIMARY KEY, 
+nome VARCHAR(50) NOT NULL);
+
+CREATE TABLE livros (id INTEGER PRIMARY KEY,
+titulo VARCHAR(150) NOT NULL,
+autor VARCHAR(100) NOT NULL,
+ano INTEGER,
+categoria_id INTEGER REFERENCES categorias(id));
+
+--> DESAFIO C1
+ALTER TABLE livros
+ADD COLUMN isbn INT;
+
+--> PARTE E
+CREATE TABLE livros_importados (
+id INTEGER,
+titulo VARCHAR(150),
+autor VARCHAR(100),
+ano INTEGER,
+categoria VARCHAR(50)
+);
