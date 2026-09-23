@@ -87,3 +87,7 @@ Os totais importados são diferentes dos catalogados porque para um livro ser ca
 
 ### Tarefa 7. 
 Uma transação que evita informações incompletas, utiliza o ROLLBACK, já que serve para voltar atrás com os RUD (insert, update, delete) feitos na Query, voltando o estado anterior da base de dados. 
+
+### Tarefa 8.
+Deu igual em ambos.
+
