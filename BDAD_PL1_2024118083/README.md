@@ -44,11 +44,11 @@ resultado:
     WHERE ano < 1980
 
 resultado:
-"FundaÃ§Ã£o" 1951
+"Fundacao" 1951
 "A Cidade e as Serras" 1901
 
 3.  código:
-    SELECT COUNT(\*)
+    SELECT COUNT(*)
     FROM livros_importados
 
 resultado:
